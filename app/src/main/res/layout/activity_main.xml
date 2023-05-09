@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/war"
+            android:inputType="none"
+            android:hint="x "/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/car"
+            android:inputType="none"
+            android:hint="n "/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:id="@+id/home"
+            android:text="Result"
+            android:layout_marginTop="20dp"
+            android:textSize="40sp"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="더하기 "
+        android:layout_marginLeft="30dp"
+        android:id="@+id/RASCAL"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="빼기 "
+        android:layout_marginLeft="30dp"
+        android:id="@+id/jh"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="곱하기"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/AT"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="나누기"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/SP"/>
+
+    <Button
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="나머지"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/loggg"/>
+
+</LinearLayout>
